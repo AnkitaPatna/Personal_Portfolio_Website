@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(1, 1, 32);
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: grey;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(2, 2, 36);
+    font-size: 1.4rem;
+}
+nav ul li a:hover{
+    color: rgb(233, 69, 233);
+    font-size: 1.4rem;
+}
+
+.left{
+    font-size: 1.8rem;
+    color: rgb(2, 2, 36);
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    margin: 80px;
+}
+.firstSection > div{
+   width: 30%;
+}
+.leftSection{
+    font-size: 2.5rem;
+} 
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(30, 30, 223);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(60, 60, 175);
+}
+.rightSection img{
+    width: 80%;
+}
+.purple{
+    color: rgb(226, 60, 226);
+}
+
+#element{
+    color: rgb(226, 60, 226);
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 38px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 105px;
+}
+.contactform h1{
+    font-family: 'Noto Sans', sans-serif; 
+    padding: 12px 0;
+    font-size: 2rem;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: white;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.about{
+    margin: 0 40px;
+}
+.about h2{
+    font-family: 'Noto Sans', sans-serif; 
+    margin: 8px;
+    font-size: 1.8rem;
+    padding-top: 20px;
+}
+.about p{
+    font-family: 'Noto Sans', sans-serif; 
+    margin: 12px;
+    font-size: 1.4rem;
+}
+.skillcontainer{
+    padding: 10px;
+}
+.skillItem{
+    display: flex;
+    margin: 20px;
+    font-size: 1.4rem;
+}
+
+.education h3{
+    margin: 0 85px;
+    padding-top: 35px;
+    font-size: 2.5rem;   
+}
+
+.infocontainer{
+    max-width: 135vh;
+    margin: 0 75px;
+    padding-top: 45px;
+}
+.infoItems{
+    padding-top: 28px;
+    font-size: 1.9rem;
+    display: flex;
+}
+.education p{
+    font-size: 1.2rem;
+    display: flex;
+    padding-top: 4px;
+}
+
+.projectinfocontainer{
+    font-size: 2rem;
+    margin: 0 45px;
+    padding-top: 15px;
+}
+
+.projects p{
+    font-size: 1.5rem;
+    display: flex;
+    padding-top: 25px;
+    padding-block-end: 25px;
+}
+
+.projects h4{
+    font-size: 3rem;
+    padding: 0 45px;
+    padding-top: 50px;
+}
